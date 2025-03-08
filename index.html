@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUDO</title>
+  </head>
+  <style>
+    body {
+      background-color: #f2f3f4;
+    }
+    td {
+      background-color: rgb(255, 255, 255);
+      padding: 25px;
+      border-radius: 5px;
+      border: solid 1px gray;
+    }
+    h1 {
+      font-style: oblique;
+    }
+  </style>
+  <body>
+    <center>
+      <h1>LUDO</h1>
+      <table>
+        <tr>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #eb1c24"></td>
+          <td></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td></td>
+          <td style="background-color: #eb1c24"></td>
+          <td></td>
+          <td style="background-color: #02a04b"></td>
+
+          <td style="background-color: #02a04b; padding: 0">
+            <div
+              style="
+                width: 40px;
+                height: 40px;
+                margin-left: 5px;
+                background-color: white; /* Fill color */
+                clip-path: polygon(
+                  50% 0%,
+                  /* Top point */ 61% 35%,
+                  /* Right upper point */ 100% 35%,
+                  /* Right upper edge */ 68% 57%,
+                  /* Right lower point */ 79% 100%,
+                  /* Bottom right point */ 50% 70%,
+                  /* Bottom center point */ 21% 100%,
+                  /* Bottom left point */ 32% 57%,
+                  /* Left lower point */ 0% 35%,
+                  /* Left upper edge */ 39% 35% /* Left upper point */
+                );
+              "
+            ></div>
+          </td>
+          <td style="background-color: #02a04b"></td>
+          <td></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td></td>
+          <td style="background-color: #02a04b"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="padding: 0px">
+            <div
+              style="
+                width: 40px;
+                height: 40px;
+                margin-left: 5px;
+                background-color: #eb1c24; /* Fill color */
+                clip-path: polygon(
+                  50% 0%,
+                  /* Top point */ 61% 35%,
+                  /* Right upper point */ 100% 35%,
+                  /* Right upper edge */ 68% 57%,
+                  /* Right lower point */ 79% 100%,
+                  /* Bottom right point */ 50% 70%,
+                  /* Bottom center point */ 21% 100%,
+                  /* Bottom left point */ 32% 57%,
+                  /* Left lower point */ 0% 35%,
+                  /* Left upper edge */ 39% 35% /* Left upper point */
+                );
+              "
+            ></div>
+          </td>
+          <td style="background-color: #02a04b"></td>
+
+          <td></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td></td>
+          <td style="background-color: #02a04b"></td>
+
+          <td></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #eb1c24"></td>
+          <td></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td></td>
+          <td style="background-color: #eb1c24"></td>
+          <td></td>
+          <td style="background-color: #02a04b"></td>
+
+          <td></td>
+          <td style="background-color: #02a04b"></td>
+          <td></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td></td>
+          <td style="background-color: #02a04b"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td></td>
+          <td style="background-color: #02a04b"></td>
+
+          <td></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+          <td style="background-color: #02a04b"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td style="background-color: #eb1c24; padding: 0">
+            <div
+              style="
+                width: 40px;
+                height: 40px;
+                margin-left: 5px;
+                background-color: white; /* Fill color */
+                clip-path: polygon(
+                  50% 0%,
+                  /* Top point */ 61% 35%,
+                  /* Right upper point */ 100% 35%,
+                  /* Right upper edge */ 68% 57%,
+                  /* Right lower point */ 79% 100%,
+                  /* Bottom right point */ 50% 70%,
+                  /* Bottom center point */ 21% 100%,
+                  /* Bottom left point */ 32% 57%,
+                  /* Left lower point */ 0% 35%,
+                  /* Left upper edge */ 39% 35% /* Left upper point */
+                );
+              "
+            ></div>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td
+            style="
+              background-image: linear-gradient(
+                50deg,
+                #eb1c24 50%,
+                #02a04b 50%
+              );
+            "
+          ></td>
+
+          <td style="background-color: #02a04b"></td>
+
+          <td
+            style="
+              background-image: linear-gradient(
+                -50deg,
+                #ffe013 50%,
+                #02a04b 50%
+              );
+            "
+          ></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="padding: 0px">
+            <div
+              style="
+                width: 40px;
+                height: 40px;
+                margin-left: 5px;
+                background-color: #02a04b; /* Fill color */
+                clip-path: polygon(
+                  50% 0%,
+                  /* Top point */ 61% 35%,
+                  /* Right upper point */ 100% 35%,
+                  /* Right upper edge */ 68% 57%,
+                  /* Right lower point */ 79% 100%,
+                  /* Bottom right point */ 50% 70%,
+                  /* Bottom center point */ 21% 100%,
+                  /* Bottom left point */ 32% 57%,
+                  /* Left lower point */ 0% 35%,
+                  /* Left upper edge */ 39% 35% /* Left upper point */
+                );
+              "
+            ></div>
+          </td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+          <td style="background-color: #eb1c24"></td>
+
+          <td style="background-color: #eb1c24"></td>
+          <td
+            style="
+              background-image: linear-gradient(
+                  45deg,
+                  #eb1c24 51%,
+                  transparent 45%
+                ),
+                linear-gradient(-45deg, #ffe013 50%, transparent 45%),
+                /* Top-left corner */ /* Top-left corner */
+                  linear-gradient(45deg, #3a7fdd 50%, transparent 45%),
+                linear-gradient(135deg, #eb1c24 51%, transparent 45%),
+                /* Top-right corner */
+                  linear-gradient(-135deg, #02a04b 51%, transparent 45%),
+                linear-gradient(-225deg, #02a04b 50%, transparent 45%),
+                /* Bottom-right corner */ /* Bottom-right corner */
+                  linear-gradient(-135deg, #ffe013 51%, transparent 45%),
+                linear-gradient(-45deg, #3a7fdd 51%, transparent 45%);
+
+              /* Bottom-left corner */
+              background-size: 50% 50%; /* Split the background into 4 quadrants */
+              background-position: top left, top right, bottom right,
+                bottom left; /* Position each gradient in a corner */
+              background-repeat: no-repeat;
+            "
+          ></td>
+          <td style="background-color: #ffe013"></td>
+
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td style="padding: 0px">
+            <div
+              style="
+                width: 40px;
+                height: 40px;
+                margin-left: 5px;
+                background-color: #3a7fdd; /* Fill color */
+                clip-path: polygon(
+                  50% 0%,
+                  /* Top point */ 61% 35%,
+                  /* Right upper point */ 100% 35%,
+                  /* Right upper edge */ 68% 57%,
+                  /* Right lower point */ 79% 100%,
+                  /* Bottom right point */ 50% 70%,
+                  /* Bottom center point */ 21% 100%,
+                  /* Bottom left point */ 32% 57%,
+                  /* Left lower point */ 0% 35%,
+                  /* Left upper edge */ 39% 35% /* Left upper point */
+                );
+              "
+            ></div>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td
+            style="
+              background-image: linear-gradient(
+                -50deg,
+                #3a7fdd 50%,
+                #eb1c24 50%
+              );
+            "
+          ></td>
+
+          <td style="background-color: #3a7fdd"></td>
+
+          <td
+            style="
+              background-image: linear-gradient(
+                50deg,
+                #3a7fdd 50%,
+                #ffe013 50%
+              );
+            "
+          ></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: #ffe013; padding: 0">
+            <div
+              style="
+                width: 40px;
+                height: 40px;
+                margin-left: 5px;
+                background-color: white; /* Fill color */
+                clip-path: polygon(
+                  50% 0%,
+                  /* Top point */ 61% 35%,
+                  /* Right upper point */ 100% 35%,
+                  /* Right upper edge */ 68% 57%,
+                  /* Right lower point */ 79% 100%,
+                  /* Bottom right point */ 50% 70%,
+                  /* Bottom center point */ 21% 100%,
+                  /* Bottom left point */ 32% 57%,
+                  /* Left lower point */ 0% 35%,
+                  /* Left upper edge */ 39% 35% /* Left upper point */
+                );
+              "
+            ></div>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #3a7fdd"></td>
+          <td></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td></td>
+          <td style="background-color: #ffe013"></td>
+          <td></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td></td>
+          <td style="background-color: #ffe013"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td></td>
+          <td style="background-color: #3a7fdd"></td>
+
+          <td></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="padding: 0px">
+            <div
+              style="
+                width: 40px;
+                height: 40px;
+                margin-left: 5px;
+                background-color: #ffe013; /* Fill color */
+                clip-path: polygon(
+                  50% 0%,
+                  /* Top point */ 61% 35%,
+                  /* Right upper point */ 100% 35%,
+                  /* Right upper edge */ 68% 57%,
+                  /* Right lower point */ 79% 100%,
+                  /* Bottom right point */ 50% 70%,
+                  /* Bottom center point */ 21% 100%,
+                  /* Bottom left point */ 32% 57%,
+                  /* Left lower point */ 0% 35%,
+                  /* Left upper edge */ 39% 35% /* Left upper point */
+                );
+              "
+            ></div>
+          </td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #3a7fdd"></td>
+          <td></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd; padding: 0">
+            <div
+              style="
+                width: 40px;
+                height: 40px;
+                margin-left: 5px;
+                background-color: white; /* Fill color */
+                clip-path: polygon(
+                  50% 0%,
+                  /* Top point */ 61% 35%,
+                  /* Right upper point */ 100% 35%,
+                  /* Right upper edge */ 68% 57%,
+                  /* Right lower point */ 79% 100%,
+                  /* Bottom right point */ 50% 70%,
+                  /* Bottom center point */ 21% 100%,
+                  /* Bottom left point */ 32% 57%,
+                  /* Left lower point */ 0% 35%,
+                  /* Left upper edge */ 39% 35% /* Left upper point */
+                );
+              "
+            ></div>
+          </td>
+          <td style="background-color: #3a7fdd"></td>
+
+          <td></td>
+          <td style="background-color: #ffe013"></td>
+          <td></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td></td>
+          <td style="background-color: #ffe013"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td style="background-color: #3a7fdd"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+          <td style="background-color: #ffe013"></td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
